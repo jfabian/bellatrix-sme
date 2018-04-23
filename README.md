@@ -13,3 +13,12 @@ El executable se encuentra en ```build/bellatrix-sme.jar```, acepta los siguient
 
 Existe un ejemplo del archivo de las URL's en la ruta ```data/sample-url.txt```
 
+## Ejemplo
+
+Si queremos extraer todos hos hashtags en la lista de web's ejecutamos el siguiente comando:
+
+```
+java -jar bellatrix-sme.jar -i urls.txt -o result-app/ -m hashtag
+```
+
+Creará un archivo por cada web en la carpeta ```result-app/```
