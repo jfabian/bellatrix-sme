@@ -21,4 +21,4 @@ Si queremos extraer todos hos hashtags en la lista de web's (```urls.txt```) eje
 java -jar bellatrix-sme.jar -i urls.txt -o result-app/ -m hashtag
 ```
 
-Creará un archivo por cada web en la carpeta ```result-app/```
+Creará un archivo por cada web en la carpeta ```result-app/``` con el listado de hashtags encontrados.
